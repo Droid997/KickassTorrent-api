@@ -1,0 +1,41 @@
+{
+  "name": "kickassTorrent-API",
+  "version": "0.0.1",
+  "description": "JS API for Kickass torrent",
+  "main": "lib/kat.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel ./src -d ./lib",
+    "lint": "eslint ./src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Droid997/KickassTorrent-API.git"
+  },
+  "keywords": [
+    "KickAssTorrent",
+    "API",
+    "KickAssTorrent",
+    "Kickass Torrent API",
+    "javascript"
+  ],
+  "author": "Dishanth",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Droid997/KickassTorrent-API/issues"
+  },
+  "homepage": "https://github.com/Droid997/KickassTorrent-API#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "eslint": "^5.12.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "query-string": "^6.2.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2"
+  }
+}
