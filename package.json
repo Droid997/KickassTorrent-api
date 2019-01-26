@@ -1,5 +1,5 @@
 {
-  "name": "kickassTorrent-API",
+  "name": "kickass-torrent-api",
   "version": "0.0.1",
   "description": "JS API for Kickass torrent",
   "main": "lib/kat.js",
