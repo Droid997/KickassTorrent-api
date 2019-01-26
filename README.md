@@ -19,8 +19,9 @@ Every Request returns a Promise.
 
 ```
 kat.baseURL
-\\ https://kat2.biz/
 ```
+>https://kat2.biz/
+
 ## Categories
 
 ```
@@ -56,8 +57,8 @@ Options Mainly Includes
 
 ### Fields
 
-The Available Fields are
 `kat.Options.Fields`
+The Available Fields are
 
 - Age
 - Leech
@@ -66,8 +67,8 @@ The Available Fields are
 
 ### Order
 
-The Available Orders are
 `kat.Options.Order`
+The Available Orders are
 
 - Ascending
 - Descending
@@ -145,7 +146,7 @@ total_results: 20
 
 ```
 
-the result inturn contains
+the result inturn contains the data in following manner
 
 ```
 Download magnet link: "download magentic link........"
