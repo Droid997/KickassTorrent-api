@@ -4,7 +4,7 @@ The Unofficial JS API for Kickass torrent (`https://kat2.biz/`)
 # Usage
 ## Setup
 
->npm i kickass-torrent-api
+>npm install --save kickass-torrent-api
 
 ## Intialize
 
