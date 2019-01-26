@@ -1,19 +1,10 @@
-'use strict';
-const rp = require('request-promise');
+import rp from 'request-promise';
 
-class getAJAX{
-    static getData(url){
-        return new Promise(function(_resolve,_reject){
-            rp(url).then(data=>{
-                _resolve(data);
-            }).catch(error=>{
-                _reject(error);
-            })
-        })
-        
-    }
+class getAJAX {
+  static getData(url) {
+    return new Promise((resolve, reject) => rp(url).then(data => resolve(data))
+      .catch(error => reject(error)));
+  }
 }
 
-module.exports.getData=getAJAX.getData;
-
-
+export default getAJAX.getData;

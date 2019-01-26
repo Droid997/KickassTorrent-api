@@ -63,3 +63,5 @@ typings/
 #leave untouched
 lib/
 .vscode
+.eslintignore
+.babelrc
