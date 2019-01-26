@@ -1,20 +1,20 @@
 # KickassTorrent-API
 JS API for Kickass torrent (`https://kat2.biz/`)
 
-#Usage
-##Setup
+# Usage
+## Setup
 >npm i kickass-torrent-api
 
-##Intialize
+## Intialize
 ```
 const kat =require('kickass-torrent-api');
 ```
-#Example Usage
-##Base URL
+# Example Usage
+## Base URL
 ```
 kat.baseURL
 ```
-##Categories
+## Categories
 ```
 kat.Categories
 ```
