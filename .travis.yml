@@ -12,4 +12,4 @@ deploy:
   on:
     tags: true
     repo: Droid997/KickassTorrent-API
-    branch: readME_commits
+    branch: master
