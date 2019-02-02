@@ -1,0 +1,15 @@
+language: node_js
+node_js:
+- node
+before_deploy:
+- npm run build
+deploy:
+  skip_cleanup: true
+  provider: npm
+  email: dishanth1997@gmail.com
+  api_key:
+    secure: MivmRAI26LvfsR1GO7RSMurgr59jQULFJe46zzB1M9NtkoSJ7SDFwHSByBRly0gKosSoBr/uB41XXmPD5YEj65qg40xNPYHsLUD0wkKwjNGKG/4GSYX5d80xeCgrP6RYTDNQG41dyPMGANFAiq44qWU8S0hvrgNsKmbxyN3orpJjl8+yCUzVleB8HNhofxRungmcZkkvWXD8OHZ1stKySri40lw4ZtoZV0/4naC7/tDcM+uy0BxV8EnnH12EADmEbSZ5dTDqpWbHaMKVEC74OurwMIjV70DgACiXiAwGd4vX3ZJN9bPCb6nXps2MUY0o5nxhxgt16KgNYu1UlKIP9sszKHqRX0LvwqNwG7PUdm6ZsuS7fnCMo91Nj4wNcpaVTSLP7uiIKlyXDqtjGFUZiRgGejkkio9ulhuPNlJbm1/781Y2BVYYd21THekUPA9cJ+6L+Vqtw2RF1YPYAwTErbNE7m7+NdL2FxwC+5d1qDPMLLC8eCRM4hDSBFN6LJwAq8eOpzUDyvvAPw011OjMIMKXYFxoUXhwnuPTBS+0YYcVeRfh+MGr3EhhQyP+meQ2AEIqQAPN1rPenTOgxoaJ9RaC99rk0/enuOPYf5JVzEeRUs7jMFvzJDVjmyxh9p+7ZVZcuNRqZRsly2F7dbybxvQASJfNdV/800F9V+7/IM8=
+  on:
+    tags: true
+    repo: Droid997/KickassTorrent-API
+    branch: readME_commits

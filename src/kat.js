@@ -11,9 +11,6 @@ class kickass {
     return kickass.Options;
   }
 
-  // https://kat2.biz/usearch/westworld%20category:tv/?field=leechers&sorder=asc
-  // https://kat2.biz/usearch/westworld%20category:tv/2/?field=leechers&sorder=asc
-
   static advanceSearch(element, options = undefined) {
     let uri;
     let query;
@@ -226,9 +223,6 @@ kickass.Options = {
 
 kickass.baseURL = 'https://kat2.biz/';
 
-// https://kat2.biz/usearch/westworld%20category:tv/2/?field=leechers&sorder=asc
-
-// eslint-disable-next-line no-console
 kickass.advanceSearch('westworld').then();
 
 module.exports.baseURL = kickass.baseURL;

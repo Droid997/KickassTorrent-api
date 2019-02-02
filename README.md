@@ -6,7 +6,12 @@ The Unofficial JS API for Kickass torrent (`https://kat2.biz/`)
 
 >npm install --save kickass-torrent-api
 
-## Intialize
+## Donate  
+
+### BTC
+![alt text](https://github.com/Droid997/KickassTorrent-API/images/btc.png)
+
+## Initialize
 
 ```
 const kat =require('kickass-torrent-api');
