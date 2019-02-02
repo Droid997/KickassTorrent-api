@@ -1,7 +1,7 @@
 # KickassTorrent-API
 The Unofficial JS API for Kickass torrent (`https://kat2.biz/`)
 
-![alt text](https://api.travis-ci.org/Droid997/KickassTorrent-API.svg?branch=readME_commits)
+![alt text](https://travis-ci.org/Droid997/KickassTorrent-API.svg?branch=master)
 # Usage
 ## Setup
 
