@@ -1,6 +1,6 @@
 {
   "name": "kickass-torrent-api",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "JS API for Kickass torrent",
   "main": "lib/kat.js",
   "scripts": {
@@ -41,7 +41,7 @@
     "request": "^2.88.0",
     "request-promise": "^4.2.2"
   },
-  "nyc" : {
+  "nyc": {
     "reporter": [
       "lcov",
       "text"
