@@ -2,6 +2,7 @@
 The Unofficial JS API for Kickass torrent (`https://kat2.biz/`)
 
 ![alt text](https://travis-ci.org/Droid997/KickassTorrent-API.svg?branch=master)
+![alt text](https://img.shields.io/badge/License-MIT-yellow.svg)
 # Usage
 ## Setup
 
