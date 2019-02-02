@@ -1,13 +1,12 @@
 {
   "name": "kickass-torrent-api",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "JS API for Kickass torrent",
   "main": "lib/kat.js",
   "scripts": {
     "test": "nyc  mocha --timeout 100000 --require babel-core/register",
     "build": "npm run lint && babel ./src -d ./lib",
-    "lint": "eslint ./src",
-    "prepublishOnly": "npm run build"
+    "lint": "eslint ./src"
   },
   "repository": {
     "type": "git",
