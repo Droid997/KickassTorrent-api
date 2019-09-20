@@ -221,7 +221,7 @@ kickass.Options = {
   },
 };
 
-kickass.baseURL = 'https://kat2.biz/';
+kickass.baseURL = 'https://kickass.vc/';
 
 kickass.advanceSearch('westworld').then();
 
