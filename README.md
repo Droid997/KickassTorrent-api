@@ -103,7 +103,7 @@ kat.getApps({
 
 ```
 
-## getFunction()
+## getFunctions()
 
 All The getFunctions work in a similar manner as shown above
 
