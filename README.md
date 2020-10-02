@@ -10,8 +10,7 @@ The Unofficial JS API for Kickass torrent (`https://kat2.biz/`)
 
 ## Donate  
 
-### BTC
-![alt text](https://github.com/Droid997/KickassTorrent-API/blob/readME_commits/images/btc.png)
+
 
 ## Initialize
 
